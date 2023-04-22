@@ -1,0 +1,45 @@
+<QrtestHome>:
+
+    BoxLayout:
+        orientation: "vertical"
+
+        Label:
+            height: 20
+            size_hint_y: None
+            text: 'Testing the camera'
+
+        KivyCamera:
+            id: qrcam
+
+        BoxLayout:
+            orientation: "vertical"
+            height: 20
+            size_hint_y: None
+
+            Button:
+                id: butt_start
+                size_hint: 0.5,1
+                text: "start"
+                on_press: root.dostart()
+
+            Button:
+                id: butt_exit
+                text: "quit"
+                size_hint: 0.5,1
+                on_press: root.doexit()
+
+            Button:
+                text: ""
+                on_press: gif.anim_delay = 0.10
+                on_press: gif._coreimage.anim_reset(True)
+
+                Image:
+                    id: gif
+                    source: 'powergif.gif'
+                    center: self.parent.center
+                    size: 500, 500
+                    allow_stretch: True
+                    anim_delay: -1
+                    anim_loop: 1
+
+            MyWidget:
