@@ -9,11 +9,38 @@ To further enhance security, the software incorporates robust user authenticatio
 
 ## Requirements
 
-- Python 3.x
-- Kivy
-- OpenCV
-- Tensorflow
-- dji-sdk/Tello-Python
+The program depends on the following Python libraries:
+- `djitellopy`
+- `opencv-python`
+- `tensorflow`
+- `kivymd`
+
+
+## Installation
+
+1. Clone the repository:
+    ```
+    git clone <https://github.com/Shiv716/Recon_Bird_Package.git>
+    ```
+2. Navigate to the project directory:
+    ```
+    cd Recon_Bird_Package
+    ```
+3. Install the required packages:
+    ```
+    pip install djitellopy opencv-python tensorflow kivymd
+    ```
+4. Verify the installation:
+    ```
+    pip list
+    ```
+
+## Usage
+
+To run the application, use the following command:
+ ```
+    python main.py
+ ```
 
 ## Tests
 
