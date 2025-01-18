@@ -1,4 +1,7 @@
-# Author: Shivang Chaudhary
+# Author
+- **Shivang Chaudhary**
+  - [GitHub](https://github.com/Shiv716)
+  - [LinkedIn](https://www.linkedin.com/in/shivang-chaudhary-2235831b5/)
 
 # Recon_Bird: Drone surveillance software
 
