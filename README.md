@@ -25,15 +25,11 @@ The program depends on the following Python libraries:
     ```
     git clone <https://github.com/Shiv716/Recon_Bird_Package.git>
     ```
-2. Navigate to the project directory:
-    ```
-    cd Recon_Bird_Package
-    ```
-3. Install the required packages:
+2. Install the required packages:
     ```
     pip install djitellopy opencv-python tensorflow kivymd
     ```
-4. Verify the installation:
+3. Verify the installation:
     ```
     pip list
     ```
